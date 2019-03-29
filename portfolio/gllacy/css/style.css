@@ -1331,6 +1331,10 @@ a.sub-new::after {
   font-size: 24px;
   font-weight: 500;
   line-height: 1.166;
+	z-index: 1;
+}
+.box-show {
+	display: block;
 }
 .modal-feedback input[type="text"] {
   margin-top: 24px;
