@@ -1,0 +1,49 @@
+body {
+  background-color: #f4eded;
+  background-image: url(../img/bg_code.jpg);
+  background-size: 300px 300px;
+  font-family: 'Istok Web', sans-serif;
+}
+p {
+  margin: 0;
+  padding: 0;
+}
+/*body > p {
+  color: #f94a4a;
+  font-size: 18px;
+  font-weight: bold;
+}
+*/
+
+a {
+  text-decoration: none;
+  color: #b59d9d;
+}
+a:hover {
+  color: #d64343;
+}
+.menu li,
+.sub-menu li {
+  margin-bottom: 10px;
+}
+footer {
+  padding-top: 20px;
+}
+.footer-link {
+  margin: 0;
+  padding: 0 0 10px 0;
+  list-style: none;
+}
+.footer-link li {
+  display: inline-block;
+  margin-right: 10px;
+}
+.footer-link a {
+  opacity: .6;
+}
+.footer-link a:hover {
+  opacity: 1;
+}
+.copyright {
+  font-size: 18px;
+}
