@@ -46,3 +46,10 @@ close.addEventListener("click", function(e) {
     currency_list.classList.remove("modal-show"),
     language_list.classList.remove("modal-show")
 });
+
+$(function(){
+$('.cruise-link').on('click', function(e){
+  $('html,body').stop().animate({ scrollTop: $('#cruise-point').offset().top }, 1000);
+  e.preventDefault();
+});
+});
